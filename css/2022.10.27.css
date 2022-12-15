@@ -1,0 +1,50 @@
+/* p태그 적용 */
+p {
+    color: red;
+}
+/* 구체적인 선택지를 입력한 경우 우선순위 높음 */
+header h2 {
+    color: blue;
+}
+
+h2 {
+    color: aqua;
+}
+
+#idcolor {
+    color: blueviolet;
+}
+
+.classcolor {
+    color: chocolate;
+}
+
+h3 {
+    color: green;
+}
+
+.place {
+    width: 500px;
+    height: 500px;
+   /* background-color: aquamarine;
+    background-image: url(/img/among.JPG);
+    background-repeat: repeat;
+    background-position: center;*/
+    background: aquamarine url(/img/among.JPG) no-repeat center;
+
+}
+.font {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#box_model {
+    width: 300px;
+    height: 300px;
+    background: burlywood ;
+    border: solid 20px red;
+    margin-top: 50px;
+    padding: 50px 20px 30px 40px; /* 시계방향으로 지정*/
+}

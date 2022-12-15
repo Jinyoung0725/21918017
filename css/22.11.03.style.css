@@ -1,0 +1,56 @@
+#first{
+    width: 100%;
+    height: 200px;
+    background-color: aqua;
+    margin-bottom: 10px;
+
+}
+
+#second{
+    width: 100%;
+    height: 200px;
+    background-color: aqua;
+    margin-top: 300px;
+}
+
+#up {
+    width: 100%;
+    height: 500px;
+    background-color: yellow;
+
+}
+
+#down {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+    margin-top: 300px;
+}
+
+span {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: chartreuse;
+    margin-top: 100px;
+}
+
+p {
+    display: inline;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(110, 32, 212);
+    margin-top: 100px;
+}
+
+h2 {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(97, 176, 228);
+    margin-top: 100px;
+}
+.font-size{
+    font-size:xx-large
+}
